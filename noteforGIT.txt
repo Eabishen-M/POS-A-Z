@@ -1,0 +1,32 @@
+# Create a new branch
+git branch <branch-name>
+
+# Switch to a branch
+git checkout <branch-name>
+# or (newer syntax)
+git switch <branch-name>
+
+# Create and switch to a new branch
+git checkout -b <branch-name>
+# or
+git switch -c <branch-name>
+
+# Merge another branch into the current branch
+git merge <branch-name>
+
+# Delete a branch (local)
+git branch -d <branch-name>
+# Force delete (if not merged)
+git branch -D <branch-name>
+
+# List all branches
+git branch
+
+# List all remote branches
+git branch -r
+
+# Push a branch to remote
+git push origin <branch-name>
+
+# Delete a remote branch
+git push origin --delete <branch-name>
